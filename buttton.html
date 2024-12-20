@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Fraunces:opsz,wght@9..144,800&display=swap" rel="stylesheet">
+    <script>
+         tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: { 'Barlow': ['Fraunces', 'Barlow']},
+              colors: {
+                primary : "#83888F",
+                secondary: "#0E8784",
+                gray: "#333D4B",
+                bg: "#FAF8F6",
+                white: "#FEFCF7"
+              },
+            },
+          },
+        };
+    </script>
+    <title>Button</title>
+</head>
+<body>
+    <div class="flex overflow-hidden flex-col items-center px-20 pt-52 rounded-3xl bg-zinc-100 pb-[702px] max-md:px-5 max-md:py-24" role="region" aria-label="Button Styles Showcase">
+        <div class="flex flex-col items-start w-full max-w-[1015px] max-md:max-w-full">
+          <h1 class="text-7xl font-bold text-black max-md:text-4xl">Buttons</h1>
+          <h2 class="mt-28 text-4xl text-black text-opacity-30 max-md:mt-10">Button Size</h2>
+          <div class="flex flex-wrap gap-5 justify-between items-start mt-14 max-w-full font-bold text-white w-[663px] max-md:mt-10">
+            <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight bg-teal-400 rounded-2xl max-md:px-5" aria-label="Large button with icon">
+              <div class="flex overflow-hidden gap-2 items-center">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/455e1b61faa75e7a5db4fee2d4d95b35ac91e3c34a259fa514c7ee84b73a449b?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                <span>Large Button</span>
+              </div>
+            </button>
+            <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 text-base leading-none bg-teal-400 rounded-2xl" aria-label="Medium button with icon">
+              <div class="flex overflow-hidden gap-2 items-center">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f95febef8d0a5490b0a905f7b864aa4587f5a529c043b59bc17ae58cce8f836?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                <span>Medium Button</span>
+              </div>
+            </button>
+            <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 text-xs leading-none bg-teal-400 rounded-xl" aria-label="Small button with icon">
+              <div class="flex overflow-hidden gap-2 items-center">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dab7947e55981c5aa97826a8411e2734c6d44f2be3585007b9f4444eeab37dbb?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                <span>Small Button</span>
+              </div>
+            </button>
+          </div>
+          <h2 class="mt-24 text-4xl text-black text-opacity-30 max-md:mt-10">Button with Icon</h2>
+          <div class="flex flex-wrap gap-5 justify-between self-stretch mt-11 font-bold text-white whitespace-nowrap max-md:mt-10 max-md:max-w-full">
+            <div class="flex flex-col items-start">
+              <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight bg-teal-400 rounded-2xl max-md:px-5" aria-label="Large enabled button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1227c302541798c724f083eb59d2a11dec7e15c9db0345cabdc2189bd0ea4ca8?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                  <span>Enabled</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none bg-teal-400 rounded-2xl" aria-label="Medium enabled button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f95febef8d0a5490b0a905f7b864aa4587f5a529c043b59bc17ae58cce8f836?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                  <span>Enabled</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none bg-teal-400 rounded-xl" aria-label="Small enabled button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0de86d3ed526217df7cc45ecbc449e776ae3b32a76482590d89769fedde01978?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                  <span>Enabled</span>
+                </div>
+              </button>
+            </div>
+            <div class="flex flex-col items-start">
+              <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight bg-red-700 rounded-2xl max-md:px-5" aria-label="Large hover state button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1227c302541798c724f083eb59d2a11dec7e15c9db0345cabdc2189bd0ea4ca8?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                  <span>Hover</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none bg-red-700 rounded-2xl" aria-label="Medium hover state button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f95febef8d0a5490b0a905f7b864aa4587f5a529c043b59bc17ae58cce8f836?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                  <span>Hover</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none bg-red-700 rounded-xl" aria-label="Small hover state button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0de86d3ed526217df7cc45ecbc449e776ae3b32a76482590d89769fedde01978?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                  <span>Hover</span>
+                </div>
+              </button>
+            </div>
+            <div class="flex flex-col items-start text-zinc-900 text-opacity-60">
+              <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight rounded-2xl border border-solid border-zinc-900 border-opacity-60 max-md:px-5" aria-label="Large outlined button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/027d4e1163bb792e3fc2fe41ed1b6cddcc8e37dff017ae32c90a03e88f34a57f?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                  <span>Enabled</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none rounded-2xl border border-solid border-zinc-900 border-opacity-60" aria-label="Medium outlined button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad7082ae7f69ab5eab8773c531948a591bcfe9fddadc81e69c8f0c7ea03a1829?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                  <span>Enabled</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none rounded-xl border border-solid border-zinc-900 border-opacity-60" aria-label="Small outlined button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ef85190006fa04d8aec8124668838707b2f33e55c7aff5fa8c98e1e81b27a5?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                  <span>Enabled</span>
+                </div>
+              </button>
+            </div>
+            <div class="flex flex-col items-start text-zinc-900 text-opacity-60">
+              <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight rounded-2xl border border-solid bg-stone-50 bg-opacity-90 border-zinc-900 border-opacity-60 max-md:px-5" aria-label="Large outlined hover state button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/137181e2698e99fe054bf95a427a1fc6e070b5d62d0eebfbf2c58338c1b9dfaa?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                  <span>Hover</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none rounded-2xl border border-solid bg-stone-50 bg-opacity-90 border-zinc-900 border-opacity-60" aria-label="Medium outlined hover state button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad7082ae7f69ab5eab8773c531948a591bcfe9fddadc81e69c8f0c7ea03a1829?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                  <span>Hover</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none rounded-xl border border-solid bg-stone-50 bg-opacity-90 border-zinc-900 border-opacity-60" aria-label="Small outlined hover state button with icon">
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ef85190006fa04d8aec8124668838707b2f33e55c7aff5fa8c98e1e81b27a5?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                  <span>Hover</span>
+                </div>
+              </button>
+            </div>
+            <div class="flex flex-col items-start text-zinc-900 text-opacity-10">
+              <button class="flex overflow-hidden flex-col justify-center items-center px-6 py-3 text-xl leading-tight bg-zinc-900 bg-opacity-10 rounded-2xl max-md:px-5" aria-label="Large disabled button with icon" disabled>
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e33e57f93214ad9a94149139b531f63bab4e119aa7de2f5911507295044453b?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                  <span>Disabled</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none bg-zinc-900 bg-opacity-10 rounded-2xl" aria-label="Medium disabled button with icon" disabled>
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/35dccb7cb0d47785ff5c5702c1cb9807bf35a4f81a70f01cbb1fd5e019fb90eb?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                  <span>Disabled</span>
+                </div>
+              </button>
+              <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none bg-zinc-900 bg-opacity-10 rounded-xl" aria-label="Small disabled button with icon" disabled>
+                <div class="flex overflow-hidden gap-2 items-center">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ae1bf701e87f21070cb15c4a94509534abb8f8c463a33360b0ce3b7c62ab3f86?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                  <span>Disabled</span>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="mt-24 w-full max-w-[981px] max-md:mt-10 max-md:max-w-full">
+            <div class="flex gap-5 max-md:flex-col">
+              <div class="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
+                <div class="flex flex-col w-full max-md:mt-10">
+                  <div class="flex gap-5 justify-between font-bold text-white whitespace-nowrap">
+                    <div class="flex flex-col">
+                      <h2 class="text-4xl text-black text-opacity-30 max-md:mr-1">Button</h2>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-6 py-3 mt-11 text-xl leading-tight bg-teal-400 rounded-2xl max-md:px-5 max-md:mt-10" aria-label="Large enabled button">
+                        <span>Enabled</span>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center self-start px-5 py-2.5 mt-10 text-base leading-none bg-teal-400 rounded-2xl" aria-label="Medium enabled button">
+                        <span>Enabled</span>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center self-start px-4 py-2 mt-10 text-xs leading-none bg-teal-400 rounded-xl" aria-label="Small enabled button">
+                        <span>Enabled</span>
+                      </button>
+                    </div>
+                    <div class="flex flex-col items-start self-end mt-24 max-md:mt-10">
+                      <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight bg-red-700 rounded-2xl max-md:px-5" aria-label="Large hover state button">
+                        <span>Hover</span>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none bg-red-700 rounded-2xl" aria-label="Medium hover state button">
+                        <span>Hover</span>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none bg-red-700 rounded-xl" aria-label="Small hover state button">
+                        <span>Hover</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="flex gap-5 justify-between mt-24 max-w-full w-[297px] max-md:mt-10">
+                    <div class="flex flex-col items-start">
+                      <h2 class="self-stretch text-4xl text-black text-opacity-30">Icon Only</h2>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-6 py-3 mt-11 bg-teal-400 rounded-2xl w-[74px] max-md:px-5 max-md:mt-10" aria-label="Large icon only button">
+                        <div class="flex overflow-hidden gap-2 items-center w-full">
+                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0315c50be6a8b42df60934a74e9ae35c4c1c55c93098333c17b1f0879a914cf3?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                        </div>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 bg-teal-400 rounded-2xl w-[57px]" aria-label="Medium icon only button">
+                        <div class="flex overflow-hidden gap-2 items-center w-full">
+                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f95febef8d0a5490b0a905f7b864aa4587f5a529c043b59bc17ae58cce8f836?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                        </div>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 w-12 bg-teal-400 rounded-xl" aria-label="Small icon only button">
+                        <div class="flex overflow-hidden gap-2 items-center w-full">
+                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/62752543a1cf52751b3b7a167dc4535010736474843473026c59798e15b39de6?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="flex flex-col items-start self-end mt-24 max-md:mt-10">
+                      <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 w-full bg-red-700 rounded-2xl max-md:px-5" aria-label="Large icon only hover state button">
+                        <div class="flex overflow-hidden gap-2 items-center w-[26px]">
+                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0315c50be6a8b42df60934a74e9ae35c4c1c55c93098333c17b1f0879a914cf3?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain self-stretch my-auto aspect-square w-[26px]" aria-hidden="true"/>
+                        </div>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 w-full bg-red-700 rounded-2xl" aria-label="Medium icon only hover state button">
+                        <div class="flex overflow-hidden gap-2 items-center w-[21px]">
+                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f95febef8d0a5490b0a905f7b864aa4587f5a529c043b59bc17ae58cce8f836?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain self-stretch my-auto aspect-square w-[21px]" aria-hidden="true"/>
+                        </div>
+                      </button>
+                      <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 w-12 bg-red-700 rounded-xl" aria-label="Small icon only hover state button">
+                        <div class="flex overflow-hidden gap-2 items-center w-full">
+                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/62752543a1cf52751b3b7a167dc4535010736474843473026c59798e15b39de6?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd" alt="" class="object-contain self-stretch my-auto w-4 aspect-square" aria-hidden="true"/>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col ml-5 w-[63%] max-md:ml-0 max-md:w-full">
+                <div class="flex flex-col mt-24 w-full max-md:mt-10 max-md:max-w-full">
+                  <div class="max-md:max-w-full">
+                    <div class="flex gap-5 max-md:flex-col">
+                      <div class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+                        <div class="flex flex-col grow items-start font-bold whitespace-nowrap text-zinc-900 text-opacity-60 max-md:mt-10">
+                          <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight rounded-2xl border border-solid border-zinc-900 border-opacity-60 max-md:px-5" aria-label="Large outlined button">
+                            <span>Enabled</span>
+                          </button>
+                          <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none rounded-2xl border border-solid border-zinc-900 border-opacity-60" aria-label="Medium outlined button">
+                            <span>Enabled</span>
+                          </button>
+                          <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none rounded-xl border border-solid border-zinc-900 border-opacity-60" aria-label="Small outlined button">
+                            <span>Enabled</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                        <div class="flex flex-col grow items-start font-bold whitespace-nowrap text-zinc-900 text-opacity-60 max-md:mt-10">
+                          <button class="flex overflow-hidden flex-col justify-center items-center self-stretch px-6 py-3 text-xl leading-tight rounded-2xl border border-solid bg-stone-50 bg-opacity-90 border-zinc-900 border-opacity-60 max-md:px-5" aria-label="Large outlined hover state button">
+                            <span>Hover</span>
+                          </button>
+                          <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none rounded-2xl border border-solid bg-stone-50 bg-opacity-90 border-zinc-900 border-opacity-60" aria-label="Medium outlined hover state button">
+                            <span>Hover</span>
+                          </button>
+                          <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none rounded-xl border border-solid bg-stone-50 bg-opacity-90 border-zinc-900 border-opacity-60" aria-label="Small outlined hover state button">
+                            <span>Hover</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                        <div class="flex flex-col grow items-start font-bold whitespace-nowrap text-zinc-900 text-opacity-10 max-md:mt-10">
+                          <button class="flex overflow-hidden flex-col justify-center items-center px-6 py-3 text-xl leading-tight bg-zinc-900 bg-opacity-10 rounded-2xl max-md:px-5" aria-label="Large disabled button" disabled>
+                            <span>Disabled</span>
+                          </button>
+                          <button class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 mt-10 text-base leading-none bg-zinc-900 bg-opacity-10 rounded-2xl" aria-label="Medium disabled button" disabled>
+                            <span>Disabled</span>
+                          </button>
+                          <button class="flex overflow-hidden flex-col justify-center items-center px-4 py-2 mt-10 text-xs leading-none bg-zinc-900 bg-opacity-10 rounded-xl" aria-label="Small disabled button" disabled>
+                            <span>Disabled</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+</body>
+</html>

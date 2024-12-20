@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Fraunces:opsz,wght@9..144,800&display=swap" rel="stylesheet">
+    <script>
+         tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: { 'Barlow': ['Fraunces', 'Barlow']},
+              colors: {
+                primary : "#83888F",
+                secondary: "#0E8784",
+                gray: "#333D4B",
+                bg: "#FAF8F6",
+                white: "#FEFCF7"
+              },
+            },
+          },
+        };
+    </script>
+    <title>Components</title>
+</head>
+<body>
+    <div
+    class="flex overflow-hidden flex-col items-center px-20 pt-52 pb-14 rounded-3xl bg-zinc-100 max-md:px-5 max-md:pt-24"
+    role="region"
+    aria-label="Course Components Section"
+  >
+    <div class="flex flex-col ml-7 w-full max-w-[2252px] max-md:max-w-full">
+      <h1
+        class="self-start text-7xl font-bold text-black max-md:max-w-full max-md:text-4xl"
+      >
+        Components
+      </h1>
+      <div
+        class="flex flex-col pl-7 mt-28 w-full max-md:pl-5 max-md:mt-10 max-md:max-w-full"
+      >
+        <div class="max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <div class="flex flex-col w-[43%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col w-full max-md:mt-10 max-md:max-w-full">
+                <div class="max-md:max-w-full">
+                  <div class="flex gap-5 max-md:flex-col">
+                    <div class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+                      <div class="flex flex-col w-full max-md:mt-8">
+                        <div
+                          class="flex flex-col w-full text-xs font-bold leading-none text-white rounded-3xl max-w-[285px]"
+                        >
+                          <div
+                            class="flex relative flex-col gap-5 justify-between items-start px-2.5 pt-2 pb-32 w-full rounded-3xl aspect-[1.77] max-md:pb-24"
+                          >
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d2ee5077aa7a014ee9e20f3c51a0ffa6be19f771b36bc5de389b9f76c2ec055?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                              alt="Course thumbnail background"
+                              class="object-cover absolute inset-0 size-full"
+                            />
+                            <div class="flex relative gap-2">
+                              <div
+                                class="overflow-hidden gap-2.5 self-stretch p-1 bg-teal-400 rounded-3xl"
+                                role="status"
+                              >
+                                Best Seller
+                              </div>
+                              <div
+                                class="overflow-hidden gap-2.5 self-stretch p-1 bg-purple-500 rounded-3xl"
+                                role="status"
+                              >
+                                20% OFF
+                              </div>
+                            </div>
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a49e10fc4f7332d0efdb2a22bf11843658ec94035c0d456d12f1d3a27189939?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                              alt=""
+                              class="object-contain shrink-0 w-6 rounded-3xl aspect-square"
+                            />
+                          </div>
+                        </div>
+                        <h2
+                          class="mt-1 text-base font-bold leading-none text-black"
+                        >
+                          Adobe Illustrator Scretch Course
+                        </h2>
+                        <div
+                          class="flex gap-1 mt-1 max-w-full text-sm leading-none text-teal-400 w-[285px]"
+                        >
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7d51c1a565587299fa7c51dce428d392e9c0233e3d80d2418a66cadc705d050?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                            alt="Kitani Studio logo"
+                            class="object-contain shrink-0 aspect-square w-[18px]"
+                          />
+                          <div class="flex-auto w-[259px]">Kitani Studio</div>
+                        </div>
+                        <p
+                          class="mt-1 text-sm leading-5 text-zinc-900 text-opacity-90"
+                        >
+                          More than 8yr Experience as Illustrator. Learn how to
+                          becoming professional Illustrator Now...
+                        </p>
+                        <div
+                          class="flex relative flex-col px-16 mt-1 max-w-full text-sm leading-none whitespace-nowrap aspect-[6.778] text-zinc-900 text-opacity-60 w-[122px] max-md:pl-5"
+                        >
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/4751e4bc-f6b0-415a-b544-6899a8f70395?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                            alt=""
+                            class="object-cover absolute inset-0 size-full"
+                          />
+                          <span>(1.2K)</span>
+                        </div>
+                        <div
+                          class="flex overflow-hidden gap-1 items-center self-start mt-1 whitespace-nowrap"
+                        >
+                          <div
+                            class="self-stretch my-auto text-xl font-bold leading-tight text-zinc-900 text-opacity-90"
+                          >
+                            $24.92
+                          </div>
+                          <div
+                            class="self-stretch my-auto text-base text-zinc-900 text-opacity-60 line-through"
+                          >
+                            $32.90
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+                    >
+                      <div class="flex flex-col w-full max-md:mt-8">
+                        <div
+                          class="flex flex-col max-w-full text-xs font-bold leading-none text-white rounded-3xl w-[285px]"
+                        >
+                          <div
+                            class="flex relative flex-col px-3 py-2.5 w-full rounded-3xl aspect-[1.77]"
+                          >
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d2ee5077aa7a014ee9e20f3c51a0ffa6be19f771b36bc5de389b9f76c2ec055?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                              alt="Course thumbnail background"
+                              class="object-cover absolute inset-0 size-full"
+                            />
+                            <div class="flex relative gap-2 w-[95px]">
+                              <div
+                                class="overflow-hidden gap-2.5 self-stretch p-1 bg-teal-400 rounded-3xl"
+                                role="status"
+                              >
+                                Best Seller
+                              </div>
+                              <div
+                                class="overflow-hidden gap-2.5 self-stretch p-1 bg-purple-500 rounded-3xl"
+                                role="status"
+                              >
+                                20% OFF
+                              </div>
+                            </div>
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7d51c1a565587299fa7c51dce428d392e9c0233e3d80d2418a66cadc705d050?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                              alt=""
+                              class="object-contain self-end mt-28 rounded-3xl aspect-square w-[18px] max-md:mt-10"
+                            />
+                          </div>
+                        </div>
+                        <h2
+                          class="mt-1 text-base font-bold leading-none text-black"
+                        >
+                          Adobe Illustrator Scretch Course
+                        </h2>
+                        <div
+                          class="flex gap-1 mt-1 max-w-full text-sm leading-none text-teal-400 w-[285px]"
+                        >
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7d51c1a565587299fa7c51dce428d392e9c0233e3d80d2418a66cadc705d050?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                            alt="Kitani Studio logo"
+                            class="object-contain shrink-0 aspect-square w-[18px]"
+                          />
+                          <div class="flex-auto w-[259px]">Kitani Studio</div>
+                        </div>
+                        <p
+                          class="mt-1 text-sm leading-5 text-zinc-900 text-opacity-90"
+                        >
+                          More than 8yr Experience as Illustrator. Learn how to
+                          becoming professional Illustrator Now...
+                        </p>
+                        <div
+                          class="flex relative flex-col px-16 mt-1 max-w-full text-sm leading-none whitespace-nowrap aspect-[6.778] text-zinc-900 text-opacity-60 w-[122px] max-md:pl-5"
+                        >
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ddc9e880-8690-49bf-ac99-f84d2314a4f8?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                            alt=""
+                            class="object-cover absolute inset-0 size-full"
+                          />
+                          <span>(1.2K)</span>
+                        </div>
+                        <div
+                          class="flex overflow-hidden gap-1 items-center self-start mt-1 whitespace-nowrap"
+                        >
+                          <div
+                            class="self-stretch my-auto text-xl font-bold leading-tight text-zinc-900 text-opacity-90"
+                          >
+                            $24.92
+                          </div>
+                          <div
+                            class="self-stretch my-auto text-base text-zinc-900 text-opacity-60 line-through"
+                          >
+                            $32.90
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+                    >
+                      <div
+                        class="flex flex-col items-center w-full text-sm leading-none max-md:mt-8"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b0760d7acd2f025bf87e2545edf80fc9b9ce062f6cadc3f766cdce4149c3590?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt="Course progress thumbnail"
+                          class="object-contain max-w-full rounded-3xl aspect-[1.77] w-[285px]"
+                        />
+                        <h2
+                          class="mt-1 text-base font-bold leading-none text-black"
+                        >
+                          Adobe Illustrator Scretch Course
+                        </h2>
+                        <div
+                          class="flex gap-1 mt-1 max-w-full text-teal-400 w-[285px]"
+                        >
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7d51c1a565587299fa7c51dce428d392e9c0233e3d80d2418a66cadc705d050?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                            alt="Kitani Studio logo"
+                            class="object-contain shrink-0 aspect-square w-[18px]"
+                          />
+                          <div class="flex-auto w-[259px]">Kitani Studio</div>
+                        </div>
+                        <div class="mt-1 text-zinc-900 text-opacity-90">
+                          4/10 Videos Completed
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col px-4 py-4 mt-24 max-w-full w-[793px] max-md:mt-10"
+                  role="region"
+                  aria-label="Video Progress"
+                >
+                  <div class="flex self-start">
+                    <div
+                      class="flex shrink-0 my-auto w-full h-1.5 bg-teal-400 rounded max-md:mr-0"
+                      role="progressbar"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                    <div
+                      class="flex shrink-0 w-3.5 h-3.5 bg-teal-400 rounded-full"
+                    ></div>
+                  </div>
+                  <div
+                    class="flex flex-wrap gap-5 justify-between mt-2 w-full text-base text-stone-50 text-opacity-60 max-md:max-w-full"
+                  >
+                    <div class="flex gap-2">
+                      <button
+                        aria-label="Previous"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/3acd3e1c6825bc0466cfdd6227c8d5a775cb8573fd72f50450eff056ddebdf84?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-6 aspect-square"
+                        />
+                      </button>
+                      <button
+                        aria-label="Play"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/ded7737836cbaed74d29ad8ae96082b366df2caf7c29c170e2a9b6dd32957766?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-6 aspect-square"
+                        />
+                      </button>
+                      <button
+                        aria-label="Next"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/3994eddc6e493fa50b0ebd5a3f512b3c6927139f751f4d504a6f0fe777b74092?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-6 aspect-square"
+                        />
+                      </button>
+                      <button
+                        aria-label="Volume"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/a1b5812faf9491b69e22e8eee0dff59e6317f45ad971cb675d0e2b0404938a4a?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-6 aspect-square"
+                        />
+                      </button>
+                      <div role="timer">12:00 / 59:00</div>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d69d264590e1fbf2637a11600df7d3159b84111b924d6fa8066743f01e90dd9?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt="Video quality settings"
+                      class="object-contain shrink-0 max-w-full aspect-[5] w-[120px]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col ml-5 w-[57%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+                <div
+                  class="flex flex-col w-full bg-blue-600 rounded-xl max-md:max-w-full"
+                >
+                  <div
+                    class="px-16 py-12 w-full rounded-xl max-md:px-5 max-md:max-w-full"
+                  >
+                    <div class="flex gap-5 max-md:flex-col">
+                      <div
+                        class="flex flex-col w-[64%] max-md:ml-0 max-md:w-full"
+                      >
+                        <div
+                          class="flex flex-col grow max-md:mt-10 max-md:max-w-full"
+                        >
+                          <h2
+                            class="self-start text-3xl font-bold leading-none text-white max-md:max-w-full"
+                          >
+                            Join and get amazing discount
+                          </h2>
+                          <p
+                            class="mt-1 text-2xl text-white text-opacity-60 max-md:max-w-full"
+                          >
+                            With our responsive themes and mobile and desktop apps
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col ml-5 w-[36%] max-md:ml-0 max-md:w-full"
+                      >
+                        <form
+                          class="flex gap-4 self-stretch my-auto w-full text-base leading-none max-md:mt-10"
+                        >
+                          <div class="flex gap-10 px-3 py-2.5 rounded bg-stone-50 bg-opacity-30">
+                            <label for="emailInput" class="sr-only">Email Address</label>
+                            <input
+                              type="email"
+                              id="emailInput"
+                              placeholder="Email Address"
+                              class="bg-transparent text-stone-50 text-opacity-60 focus:outline-none focus:ring-2 focus:ring-white"
+                              required
+                            />
+                            <img
+                              loading="lazy"
+                              src="https://cdn.builder.io/api/v1/image/assets/TEMP/59ec3b656a99d531fbd5700993a5d9171d0d4cf16534ef56937f61c9462eaa62?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                              alt=""
+                              class="object-contain shrink-0 rounded aspect-square w-[21px]"
+                            />
+                          </div>
+                          <button
+                            type="submit"
+                            class="flex overflow-hidden flex-col justify-center items-center px-5 py-2.5 font-bold text-white whitespace-nowrap bg-teal-400 rounded hover:bg-teal-500 focus:outline-none focus:ring-2 focus:ring-white"
+                          >
+                            Subscribe
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col mt-6 font-bold leading-none rounded-xl bg-slate-800 max-md:max-w-full"
+                >
+                  <div
+                    class="flex relative flex-col items-start p-16 w-full rounded-none min-h-[307px] max-md:px-5 max-md:max-w-full"
+                  >
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2ffe3be15b1474fe96a8eae0a249f90304ed4ded6e41e0a54d1b6c68c386203?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt="Promotional background"
+                      class="object-cover absolute inset-0 size-full"
+                    />
+                    <h2 class="relative text-3xl text-white max-md:max-w-full">
+                      Join Klevr now to get 35% off
+                    </h2>
+                    <p
+                      class="relative mt-2 text-2xl leading-9 text-white text-opacity-60 max-md:max-w-full"
+                    >
+                      With our responsive themes and mobile and desktop apps,
+                      <br />
+                      enjoy a seamless experience on any device so will your blog
+                      the best visitors
+                    </p>
+                    <button
+                      class="flex overflow-hidden relative flex-col justify-center items-center px-5 py-2.5 mt-6 text-base text-white bg-teal-400 rounded hover:bg-teal-500 focus:outline-none focus:ring-2 focus:ring-white"
+                    >
+                      Join Klevr
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2.5 w-full max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <div class="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col items-start w-full max-md:mt-10 max-md:max-w-full"
+              >
+                <div
+                  class="flex flex-wrap gap-5 justify-between items-start self-stretch px-4 pt-9 pb-4 w-full text-xs font-bold leading-none text-white max-md:max-w-full"
+                >
+                  <div class="flex gap-2.5">
+                    <div
+                      class="flex overflow-hidden gap-0.5 items-center p-1 my-auto bg-teal-400 rounded-sm"
+                      role="status"
+                    >
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b9ea8cd04e63e2eb436dcdc2f3a2ad85e9b6be5ab9f4ef668a1f103230def33?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                        alt=""
+                        class="object-contain shrink-0 self-stretch my-auto w-2.5 aspect-square"
+                      />
+                      <div class="self-stretch my-auto">LIVE NOW</div>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/a1b5812faf9491b69e22e8eee0dff59e6317f45ad971cb675d0e2b0404938a4a?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt=""
+                      class="object-contain shrink-0 w-6 aspect-square"
+                    />
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d69d264590e1fbf2637a11600df7d3159b84111b924d6fa8066743f01e90dd9?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                    alt="Video quality settings"
+                    class="object-contain shrink-0 max-w-full aspect-[5] w-[120px]"
+                  />
+                </div>
+                <div
+                  class="flex flex-wrap gap-10 p-4 mt-10 max-w-full text-xs font-bold leading-none text-white w-[519px]"
+                >
+                  <div class="flex flex-1 gap-2.5">
+                    <div
+                      class="flex overflow-hidden gap-0.5 items-center p-1 bg-teal-400 rounded-sm min-h-[18px]"
+                      role="status"
+                    >
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c879307f54a78afdee495382417fd2051b0e1fd56e2d8c54bdfd0df4d6a3936?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                        alt=""
+                        class="object-contain shrink-0 self-stretch my-auto w-2.5 aspect-square"
+                      />
+                      <div class="self-stretch my-auto">LIVE NOW</div>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/89de1ed7f1e7207cb32ba481e75df140c15bbe5c371aa05e854e49678f6569b8?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt=""
+                      class="object-contain shrink-0 self-start w-4 aspect-square"
+                    />
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/980d8a8ff2eb755052da529a0f70c5d56c4adbd56e13ddab876ad4258bce35ad?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                    alt="Video controls"
+                    class="object-contain shrink-0 self-start aspect-[4.88] w-[78px]"
+                  />
+                </div>
+                <div
+                  class="flex flex-wrap gap-5 justify-between p-2.5 mt-10 max-w-full w-[519px]"
+                  role="region"
+                  aria-label="Video Progress"
+                >
+                  <div class="flex flex-col">
+                    <div class="flex self-start">
+                      <div
+                        class="flex shrink-0 my-auto w-full h-1 bg-teal-400 rounded max-md:-mr-1"
+                        role="progressbar"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                      <div
+                        class="flex shrink-0 h-2.5 bg-teal-400 rounded-full w-[9px]"
+                      ></div>
+                    </div>
+                    <div
+                      class="flex gap-1.5 mt-1.5 text-sm leading-none text-stone-50 text-opacity-60"
+                    >
+                      <button
+                        aria-label="Previous"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/083b69dc902c9cf5e593a71e93fa83f598a8ac566c67c38d0bc219357e08083c?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-4 aspect-square"
+                        />
+                      </button>
+                      <button
+                        aria-label="Play"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/b85cdeafadfe29ffa454650e3ee798d5bf55c2e6e71c5fbdac786b614bf50efd?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-4 aspect-square"
+                        />
+                      </button>
+                      <button
+                        aria-label="Next"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2e12c5dcb208fdd0fe9755a17a08469c3edf3d77fe25b969df7b21c1d82253c5?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-4 aspect-square"
+                        />
+                      </button>
+                      <button
+                        aria-label="Volume"
+                        class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/4b9cb3d852e55c9ce0e79140e396feaa9882c2d18eb37b8eca45b084d6dbd2da?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt=""
+                          class="object-contain shrink-0 w-4 aspect-square"
+                        />
+                      </button>
+                      <div role="timer">12:00 / 59:00</div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff1c034fd5b0c8cfa8b3714af1dcd2f936828f359025473164055250ccaa73bb?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                    alt="Video quality settings"
+                    class="object-contain shrink-0 self-start mt-4 aspect-[4.93] w-[79px]"
+                  />
+                </div>
+                <div
+                  class="flex gap-10 px-2.5 py-2.5 mt-10 max-w-full text-xs font-bold leading-none text-white w-[375px]"
+                >
+                  <div class="flex flex-1 gap-2">
+                    <div
+                      class="flex overflow-hidden gap-0.5 items-center p-1 bg-teal-400 rounded-sm"
+                      role="status"
+                    >
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7be65ac2cfd25e1e92aa14a84bef22fcd3a33ad5e72cb5213b7bf69a5bfacf94?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                        alt=""
+                        class="object-contain shrink-0 self-stretch my-auto w-2 aspect-square"
+                      />
+                      <div class="self-stretch my-auto">LIVE NOW</div>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/216727cf8d000a5889f8d4b1e406cc7826d845a15bb816ec210271c33ed9c53e?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt=""
+                      class="object-contain shrink-0 self-start w-3.5 aspect-square"
+                    />
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0caa4c935af5e706806d54073cb76528f3ce5f4f4fb53fd441fa02cfd47444da?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                    alt="Video controls"
+                    class="object-contain shrink-0 self-start aspect-[4.15] w-[58px]"
+                  />
+                </div>
+                <div
+                  class="flex gap-5 justify-between px-2 py-1.5 mt-10 max-w-full text-xs text-stone-50 text-opacity-60 w-[375px]"
+                  role="region"
+                  aria-label="Video Progress"
+                >
+                  <div class="flex flex-col">
+                    <div
+                      class="flex shrink-0 bg-teal-400 rounded h-[3px] w-[66px]"
+                      role="progressbar"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                    <div class="flex gap-1.5 mt-2">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a4b4ed92d88cf4858f36cada510c132970f285c54a42f71c1cbc0ad1f2a3d5be?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                        alt=""
+                        class="object-contain shrink-0 self-start w-3.5 aspect-square"
+                      />
+                      <div role="timer">12:00 / 59:00</div>
+                    </div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0caa4c935af5e706806d54073cb76528f3ce5f4f4fb53fd441fa02cfd47444da?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                    alt="Video controls"
+                    class="object-contain shrink-0 self-start mt-3 aspect-[4.15] w-[58px]"
+                  />
+                </div>
+                <div
+                  class="flex overflow-hidden gap-10 mt-16 max-w-full w-[397px] max-md:mt-10"
+                >
+                  <div class="flex flex-auto gap-2 items-start px-4 py-1.5">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/96a6768ed1d0c81ca214adfe0ec34c111288e5b6a0fb60d7feb663789ec53698?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt="User avatar"
+                      class="object-contain shrink-0 rounded-2xl aspect-square w-[42px]"
+                    />
+                    <div class="flex overflow-hidden flex-col">
+                      <div class="text-base text-zinc-900">Title Here</div>
+                      <div
+                        class="text-sm leading-none text-zinc-900 text-opacity-60"
+                      >
+                        Secondary text or short description
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    aria-label="More options"
+                    class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                  >
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b9a896ed4f07889767f84471a8621be556a63a9f7ed71c0bcc9706c922e7109?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt=""
+                      class="object-contain shrink-0 my-auto w-6 aspect-square"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="flex overflow-hidden gap-6 mt-11 max-w-full w-[351px] max-md:mt-10"
+                >
+                  <div class="flex flex-auto gap-1.5 items-start px-4 py-1.5">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/decab83538436a395ed461d776d18ff46e2039d52aafd69feeefb8abb22fe292?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt="Chapter thumbnail"
+                      class="object-contain shrink-0 aspect-square w-[39px]"
+                    />
+                    <div class="flex overflow-hidden flex-col">
+                      <div class="text-base font-bold leading-none text-zinc-900">
+                        Chapter Number: Title
+                      </div>
+                      <div class="flex gap-1 items-center text-sm leading-none">
+                        <div
+                          class="self-stretch my-auto text-zinc-900 text-opacity-60"
+                        >
+                          Amount of Episodes
+                        </div>
+                        <div class="self-stretch my-auto text-teal-400">
+                          Minutes Total
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    aria-label="More options"
+                    class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                  >
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ca3ff872b9eaf7c778db2b1bb74b239888d626613e153678c4459ce2185bedd?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt=""
+                      class="object-contain shrink-0 my-auto w-6 aspect-square"
+                    />
+                  </button>
+                </div>
+                <div
+                  <div
+                  class="flex overflow-hidden gap-5 justify-between mt-12 ml-3 max-w-full w-[363px] max-md:mt-10 max-md:ml-2.5"
+                >
+                  <div class="flex gap-1.5 items-start">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f4f154944543614d2fc56be6231c62dc9536b7dd6d1e4153dc1df8137f9946fb?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt="Chapter thumbnail"
+                      class="object-contain shrink-0 aspect-square w-[33px]"
+                    />
+                    <div class="flex overflow-hidden flex-col">
+                      <div class="text-xs font-bold leading-none text-zinc-900">
+                        Chapter Number: Title
+                      </div>
+                      <div class="flex gap-1 items-center text-xs">
+                        <div
+                          class="self-stretch my-auto text-zinc-900 text-opacity-60"
+                        >
+                          Amount of Episodes
+                        </div>
+                        <div class="self-stretch my-auto text-teal-400">
+                          Minutes Total
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    aria-label="More options"
+                    class="focus:outline-none focus:ring-2 focus:ring-teal-400"
+                  >
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ca3ff872b9eaf7c778db2b1bb74b239888d626613e153678c4459ce2185bedd?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt=""
+                      class="object-contain shrink-0 my-auto w-6 aspect-square"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col ml-5 w-3/5 max-md:ml-0 max-md:w-full">
+              <div class="self-stretch my-auto max-md:mt-10 max-md:max-w-full">
+                <div class="flex gap-5 max-md:flex-col">
+                  <div class="flex flex-col w-[37%] max-md:ml-0 max-md:w-full">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/2034197885a80a3df8693ea11ad95bd939b6f2e7ad66dd3c35a46e14d2de7ef7?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                      alt="Course preview"
+                      class="object-contain grow w-full aspect-[0.61] max-md:mt-10"
+                    />
+                  </div>
+                  <div
+                    class="flex flex-col ml-5 w-[37%] max-md:ml-0 max-md:w-full"
+                  >
+                    <div
+                      class="flex flex-col grow text-xs font-bold text-white rounded-2xl max-md:mt-10"
+                    >
+                      <div class="flex flex-col rounded-2xl bg-slate-800">
+                        <div
+                          class="flex relative flex-col px-5 pt-10 pb-96 w-full rounded-none aspect-[0.613] max-md:pb-24"
+                        >
+                          <img
+                            loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6d3a95f4dcbb86f2ab504ea46b4d67993386cd68e999876c6c9ad9d344e73b3?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                            alt="Webinar background"
+                            class="object-cover absolute inset-0 size-full"
+                          />
+                          <div
+                            class="flex overflow-hidden relative flex-col mb-0 w-full max-md:mb-2.5"
+                          >
+                            <div
+                              class="overflow-hidden gap-2.5 self-start p-1 leading-none whitespace-nowrap bg-teal-400 rounded-sm"
+                              role="status"
+                            >
+                              WEBINAR
+                            </div>
+                            <div
+                              class="mt-1 text-xl text-stone-50 text-opacity-90"
+                            >
+                              Ana Kursova
+                            </div>
+                            <h3 class="mt-1 text-3xl leading-10">
+                              Masterclass in Design Thinking, Innovation &
+                              Creativity
+                            </h3>
+                            <button
+                              class="flex overflow-hidden flex-col justify-center items-center self-start px-4 py-2 mt-1 leading-none text-amber-400 rounded border border-amber-400 border-solid hover:bg-amber-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-amber-400"
+                            >
+                              Learn More
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col ml-5 w-[27%] max-md:ml-0 max-md:w-full"
+                  >
+                    <div
+                      class="flex flex-col text-center text-white rounded-2xl max-md:mt-10"
+                    >
+                      <div
+                        class="flex relative flex-col w-full rounded-2xl aspect-[0.713]"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7d71c7ee647cba443b12518db84deb28484bb4066df55d22b00055f293fcd7ab?placeholderIfAbsent=true&apiKey=0b69390d977a4a878ed863a38b2aa8dd"
+                          alt="Instructor profile background"
+                          class="object-cover absolute inset-0 size-full"
+                        />
+                        <div class="flex relative flex-col rounded-2xl">
+                          <div
+                            class="flex flex-col px-8 pt-80 pb-4 rounded-2xl max-md:px-5 max-md:pt-24"
+                          >
+                            <div
+                              class="flex overflow-hidden flex-col items-center"
+                            >
+                              <div class="text-2xl font-bold leading-none">
+                                Alexander Bastian
+                              </div>
+                              <div class="mt-1 text-base">
+                                Expert Mobile Engineer
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
